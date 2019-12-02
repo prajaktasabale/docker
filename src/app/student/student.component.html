@@ -1,0 +1,19 @@
+
+<table class="table table-striped table-hover">
+    <thead>
+        <tr>
+            <th>Roll No</th>
+            <th>Name</th>
+            <th>Course</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let student of students">
+            <td>{{student.Roll_no}}</td>
+            <td>{{student.Name}}</td>
+            <td>{{student.course}}</td>
+
+        </tr>
+    </tbody>
+</table>
+
